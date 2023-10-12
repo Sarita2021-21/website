@@ -3,7 +3,7 @@
         <div class="main-head-grid">
             <div>
                 <a href="./index.html">
-                <img src="../images/logo/logo.webp" alt="" class="logo"></a>
+                    <img src="../images/logo/logo.webp" alt="" class="logo"></a>
             </div>
             <div class="main-headings">
                 <div class="affilation">
@@ -127,12 +127,9 @@
 
 <div class="nav-container">
     <div class="hamburger-menu">
-        <div class="line line-1"></div>
-        <div class="line line-2"></div>
-        <div class="line line-3"></div>
+        <i class="fa-solid fa-bars"></i>
     </div>
-
-    <section class="sidebar">
+    <div class="sidebar">
         <ul class="menu">
             <li class="nav-item">
                 <a href="../index.html" class="nav-link">Home</a>
@@ -216,5 +213,9 @@
                 </div>
             </div>
         </ul>
-    </section>
+    </div>
 </div>
+
+<script>  document.querySelector('.hamburger-menu').addEventListener('click', () => {
+        document.querySelector('.sidebar').classList.toggle('change')
+});</script>

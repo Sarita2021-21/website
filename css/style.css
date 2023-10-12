@@ -63,6 +63,66 @@ body {
     display: none;
 }
 
+.hamburger-menu {
+    width: 2.3rem;
+    height: 2.3rem;
+    position: fixed;
+    top: 3rem;
+    right: 3rem;
+    font-size: 3rem;
+    color:white;
+    z-index: 200;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    cursor: pointer;
+}
+
+.sidebar {
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    right: -100%;
+    background-color: rgb(109, 180, 228, 0.8);
+    z-index: 20;
+    transition: right .5s;
+}
+
+.change.sidebar {
+    right: 0rem;
+}
+
+.menu {
+    position: absolute;
+    top: 36%;
+    left:45%;
+    transform: translate(-50%, -50%);
+}
+
+.nav-item {
+    display: block;
+    position: relative;
+    text-align: left;
+    margin-left: 0rem;
+    transition: color .3s;
+    padding-bottom: 1rem;
+}
+.nav-container .sidebar .menu .nav-item .nav-link{
+    font-size: 2.3rem;
+}
+.nav-link {
+    margin: 3rem 0;
+}
+
+.sidebar.nav-link:hover {
+    color: black;
+}+
+
+.dropdown-menu {
+    display: none;
+}
+
 .navbar-section {
     background-image: linear-gradient(to right, #091860, #0babff);
 }
@@ -98,9 +158,10 @@ body {
 .nav-item:hover .dropdown-menu {
     display: block;
 }
-.dropdown-menu .dropdown-item a{
+
+.dropdown-menu .dropdown-item a {
     text-transform: capitalize;
-    font-size: 1.3rem;
+    font-size: 1.7rem;
 }
 
 /* Style the dropdown item links */
@@ -121,6 +182,9 @@ body {
 .dropdown-menu li:hover {
     background-color: #6da1fc;
 }
+
+
+
 
 /* section for carousel  */
 .carousel-item img {
@@ -464,7 +528,7 @@ body {
 
 .footer-grid {
     display: grid;
-    grid-template-columns: auto auto auto auto;
+    grid-template-columns: auto auto auto;
     padding: 3rem 0;
     margin: 0 7rem;
     gap: 7rem;
