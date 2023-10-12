@@ -1,0 +1,250 @@
+@media (max-width: 660px) {
+    html {
+        font-size: 60%;
+        ;
+    }
+}
+
+@media (max-width: 450px) {
+
+    html {
+        font-size: 50.5%;
+        overflow-x: hidden;
+
+    }
+
+    body {
+        overflow-x: hidden;
+    }
+
+    .main-head-grid {
+        grid-template-columns: auto;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .logo {
+        width: 30%;
+        height: 13vh;
+    }
+
+    .main-headings {
+        margin: 1.3rem 0;
+    }
+
+    .main-headings h1 {
+        font-size: 2.7rem;
+    }
+
+    .affilation h3 {
+        font-size: 1.3rem;
+    }
+
+    .navbar-section {
+        display: none;
+    }
+
+    /* navigation bar for small screen  */
+    .nav-container {
+        display: block;
+    }
+
+    .hamburger-menu {
+        width: 2.3rem;
+        height: 2.3rem;
+        position: fixed;
+        top: 3rem;
+        right: 3rem;
+        z-index: 200;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        cursor: pointer;
+    }
+
+    .line {
+        width: 100%;
+        height: .2rem;
+        background-color: white;
+        box-shadow: 0.3rem 0.2rem rgba(0, 0, 0, 0.2);
+    }
+
+
+    .sidebar {
+        width: 100%;
+        height: 100vh;
+        position: fixed;
+        top: 0;
+        right: -100%;
+        background-color: rgb(109, 180, 228, 0.8);
+        z-index: 20;
+        transition: right .5s;
+    }
+
+    .change .sidebar {
+        right: 0rem;
+    }
+
+    .menu {
+        position: absolute;
+        top: 36%;
+        left: 90%;
+        transform: translate(-50%, -50%);
+    }
+
+    .nav-item {
+        display: block;
+        position: relative;
+        text-align: left;
+        margin-left: 0rem;
+        transition: color .3s;
+        padding-bottom: 1rem;
+    }
+
+    .nav-link {
+        margin: 3rem 0;
+    }
+
+    .sidebar .nav-link:hover {
+        color: black;
+    }
+
+    .dropdown-menu.active {
+        display: block;
+    }
+
+    .dropdown-menu {
+        display: none;
+    }
+
+    .carousel-item img {
+        width: 100%;
+        height: 43vh;
+    }
+
+    .welcome-section {
+        margin-top: 2rem;
+        margin-bottom: 3rem;
+    }
+
+    .welcome-heading,
+    .achievement-heading h1,
+    .gallery h1 {
+        font-size: 2.7rem;
+    }
+
+    .welcome-school p {
+        font-size: 1.3rem;
+    }
+
+    .management-grid {
+        grid-template-columns: auto;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .management h1 {
+        font-size: 2.9rem;
+    }
+
+    .management-image img {
+        width: 100%;
+        height: 40vh;
+        padding: 3rem 6rem 0 0;
+    }
+
+    .management-details {
+        padding: 5rem 5rem 0 2rem;
+    }
+
+    .read-btn {
+        width: 40%;
+    }
+
+    .read-btn a {
+        font-size: 1rem;
+    }
+
+    /* .achievement-grid {
+        grid-template-columns: auto;
+        margin: 0 47rem 0;
+    } */
+
+    .curriculam-grid {
+        grid-template-columns: auto;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        margin: 3rem 5rem;
+    }
+
+    .curriculam-grid .card {
+        align-items: center;
+    }
+
+    .read-btn-2 {
+        width: 60%;
+    }
+
+    .arrow {
+        font-size: .9rem;
+    }
+
+    .achievement-section {
+        margin-top: 10%;
+    }
+
+    .achievement-grid {
+        grid-template-columns: auto;
+        margin-left: 41rem;
+    }
+
+    .achievements-2 {
+        visibility: visible;
+        margin-top: -37rem;
+    }
+
+    .card img {
+        width: 20rem;
+        height: 13rem;
+    }
+
+    .students-grid {
+        grid-template-columns: auto;
+        align-items: center;
+        width: 10%;
+        visibility: hidden;
+    }
+
+    .kids-section {
+        margin-top: 0;
+    }
+
+    .kids-container {
+        padding: 7rem 0rem;
+    }
+
+    .kids-list-container {
+        grid-template-columns: auto auto;
+        margin-left: -3rem;
+        gap: 7rem;
+    }
+
+    .quotes-heading h1 {
+        font-size: 2.7rem;
+    }
+
+    .footer-grid {
+        grid-template-columns: auto;
+    }
+
+    .download-image {
+        height: 17rem;
+    }
+
+    .download {
+        width: 60%;
+    }
+}
