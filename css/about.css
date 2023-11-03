@@ -7,7 +7,7 @@ body {
     margin: 3rem;
     padding: .7rem;
     background-image: linear-gradient(to bottom right, #4cd9fe, #6da1fc);
-    text-transform: capitalize;
+    text-transform: uppercase;
 }
 
 article {
@@ -18,7 +18,7 @@ article {
 }
 
 /* staff list  */
-.staff-grid-container{
+.staff-grid-container {
     display: grid;
     grid-template-columns: auto auto auto auto auto;
     align-items: center;
@@ -26,21 +26,118 @@ article {
     justify-content: center;
 }
 
-.staff-grid{
-    margin:2rem;
-    border:.2rem solid rgb(16, 26, 232);
-    padding:2rem 1.3rem;
+.staff-grid {
+    margin: 2rem;
+    border: .2rem solid rgb(16, 26, 232);
+    padding: 2rem 1.3rem;
     transition: scale 3s ease;
     cursor: pointer;
 }
 
-.staff-grid h2, .staff-grid h3{
+.staff-grid h2,
+.staff-grid h3 {
     text-transform: capitalize;
 }
-.staff-grid h4{
+
+.staff-grid h5 {
     text-transform: uppercase;
 }
-.staff-grid:hover{
+
+.staff-grid h4 {
+    text-transform: uppercase;
+}
+
+.staff-grid:hover {
     transform: scale(1.3);
 }
+
 /* @media (max-width: 450px) {} */
+
+/* achievements css  */
+.achievements-grid {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 2rem;
+    margin: 2rem;
+    text-align: center;
+}
+
+.achievements {
+    padding: 2rem;
+    border: .2rem solid #6da1fc;
+}
+
+.achievements img {
+    width: 90%;
+    height: 37vh;
+}
+
+.achievements .card-body {
+    margin-top: .9rem;
+}
+
+.achievements .card-title,
+.card-body {
+    text-transform: capitalize;
+}
+
+/* holidays css  */
+.holiday-table,
+.vacation-table {
+    width: 70%;
+    text-transform: capitalize;
+    text-align: center;
+    margin: 0 15%;
+}
+
+.holiday-table th,
+.holiday-table td,
+.vacation-table th,
+.vacation-table td {
+    border: .2rem solid #6da1fc;
+    padding: .3rem 0;
+}
+
+.holiday-table th,
+.vacation-table th {
+    font-size: 1.7rem;
+}
+
+.holiday-table td,
+.vacation-table td {
+    font-size: 1.3rem;
+}
+
+.vacation-heading {
+    text-align: center;
+    margin-top: 3rem;
+    text-transform: capitalize;
+}
+
+.holidays-instruction {
+    margin: 3rem;
+}
+
+.holidays-instruction h5 {
+    text-align: center;
+    text-transform: capitalize;
+}
+
+/* activity css  */
+.activity-grid{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    text-align: center;
+}
+.activity-btn{
+    text-transform: capitalize;
+    font-size: 1.7rem;
+    color:white;
+    padding:.3rem .7rem;
+    background-color: #6da1fc;
+    margin-bottom: 3rem;
+}
+.activity-btn:hover{
+    background-color:#c4ddfe;
+    color:black;
+}

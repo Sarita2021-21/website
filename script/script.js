@@ -1,3 +1,5 @@
+  
+  
 window.onload = function () {
     let history = document.getElementById("history");
     if (history) {
@@ -114,10 +116,23 @@ window.onload = function () {
             location.href = "./atal.html";
         };
     }
-    let library = document.getElementById("library");
-    if (library) {
-        library.onclick = function () {
-            location.href = "./library.html";
+    let activity = document.getElementById("activitycalender");
+    if (activity) {
+        activity.onclick = function () {
+            location.href = "./activity.html";
+        };
+    
+    }
+    let holidays = document.getElementById("holidays");
+    if (holidays) {
+        holidays.onclick = function () {
+            location.href = "./holidays.html";
+        };
+    }
+    let achievements = document.getElementById("achievements");
+    if (achievements) {
+        achievements.onclick = function () {
+            location.href = "./achievements.html";
         };
     }
 }

@@ -15,6 +15,7 @@ html {
 
 body {
     font-family: 'Roboto', sans-serif;
+    overflow-x: hidden;
     /* background-image: linear-gradient(to bottom, #c4ddfe, #fed8f7); */
 }
 
@@ -70,7 +71,7 @@ body {
     top: 3rem;
     right: 3rem;
     font-size: 3rem;
-    color:white;
+    color: white;
     z-index: 200;
     display: flex;
     flex-direction: column;
@@ -96,7 +97,7 @@ body {
 .menu {
     position: absolute;
     top: 36%;
-    left:45%;
+    left: 45%;
     transform: translate(-50%, -50%);
 }
 
@@ -108,16 +109,18 @@ body {
     transition: color .3s;
     padding-bottom: 1rem;
 }
-.nav-container .sidebar .menu .nav-item .nav-link{
+
+.nav-container .sidebar .menu .nav-item .nav-link {
     font-size: 2.3rem;
 }
+
 .nav-link {
     margin: 3rem 0;
 }
 
 .sidebar.nav-link:hover {
     color: black;
-}+
+}
 
 .dropdown-menu {
     display: none;
@@ -182,14 +185,52 @@ body {
 .dropdown-menu li:hover {
     background-color: #6da1fc;
 }
-
-
-
+/* pop up  */
+/* .popup-container{
+  
+    transform: translate(-50%,-50%);
+} */
+/* Styles for the loading overlay */
+/* .loader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.7);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 9999;
+  }
+  
+  /* Styles for the popup */
+  .popup {
+    display: none;
+    /* Add other styles to position and style your popup here */
+  }
+  
+.popup-slide img {
+    height:90vh;
+    width: 50%;
+    top:3%;
+    left:25%;
+    position: absolute;
+    transform: scale(0);
+ }
+/* .loader button{
+    position:relative;
+    margin-top:2.3%;
+    left:73%;
+} */
+.popup-slide img.change {
+    transform: scale(1);
+} */
 
 /* section for carousel  */
 .carousel-item img {
     width: 100%;
-    height: 87vh;
+    height: 91vh;
 }
 
 .carousel-control-prev-icon,
@@ -211,7 +252,7 @@ body {
 
 .welcome-heading,
 .achievement-heading h1,
-.gallery h1 {
+.gallery h1 ,.news-heading h1{
     text-transform: uppercase;
     font-size: 3.7rem;
     background: -webkit-linear-gradient(0deg, #091860 0%, #48abe0 100%);
@@ -264,6 +305,10 @@ body {
 .management-details p {
     font-size: 1.3rem;
 }
+
+/* .director-image {
+    width: 710%;
+} */
 
 .read-btn {
     width: 25%;
@@ -359,6 +404,7 @@ body {
     grid-template-columns: auto auto;
     align-items: center;
     justify-content: center;
+    text-transform: capitalize;
 }
 
 .students-grid .card-body {
@@ -479,9 +525,43 @@ body {
 
 /* section for photo gallery  */
 .photo-gallery-section {
+    margin-top: 2rem;
     text-align: center;
 }
 
+.gallery-container {
+    margin-bottom: 3.7rem;
+}
+
+.gallery-grid {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 2rem;
+}
+
+.gallery-images img {
+    width: 90%;
+    height: 37vh;
+    border: .2rem solid #091860;
+    margin: 2rem;
+}
+
+.read-btn.photos-btn {
+    margin-top: 3.7rem;
+}
+
+.photos-btn {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 1.3rem;
+    padding: .9rem;
+}
+ /* news section  */
+ .news-heading h1{
+    text-align: center;
+    margin:2.7rem 0;
+    
+ }
 /* section for quotes  */
 .quotes-section {
     background-image: linear-gradient(to right, #4cd9fe, #6da1fc);
@@ -528,7 +608,7 @@ body {
 
 .footer-grid {
     display: grid;
-    grid-template-columns: auto auto auto;
+    grid-template-columns: auto auto auto auto;
     padding: 3rem 0;
     margin: 0 7rem;
     gap: 7rem;
@@ -614,7 +694,8 @@ body {
     background-image: linear-gradient(to right, #4cd9fe, #6da1fc);
     text-transform: capitalize;
     text-align: center;
-    padding-bottom: 0;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
     margin-bottom: 0;
 }
 

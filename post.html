@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/media.css">
+    <link rel="stylesheet" href="./css/about.css">
+</head>
+<body>
+    <div class="loader">
+        <div class="popup-slide">
+            <img class="change" src="./images/posts/haryana-day.jpeg" alt="">
+            <img src="./images/posts/karwa.jpeg" alt="">
+            <img src="./images/posts/haryana-day.jpeg" alt="">
+        </div>
+    </div>
+    
+    <div class="popup">
+        <div class="popup-container">
+        
+        </div>
+    </div>
+    
+    
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            const slide = document.querySelectorAll(".popup-slide img");
+            let i = 0;
+        
+            // Set the "change" class on the first image to start the slideshow
+            slide[i].classList.add('change');
+        
+            function changeSlide() {
+                slide[i].classList.remove('change');
+                i = (i + 1) % slide.length;
+                slide[i].classList.add('change');
+            }
+        
+            setInterval(changeSlide, 2000);
+        
+            var loader = document.querySelector('.loader');
+            var popup = document.querySelector('.popup');
+        
+            function openPopup() {
+                popup.style.display = 'block';
+            }
+        
+            setTimeout(function () {
+                openPopup();
+                loader.style.display = 'none'; // Hide the loader when showing the popup
+            }, 12000); // Adjust the delay in milliseconds (12000 = 12 seconds)
+        });
+        
+        
+    </script>
+</body>
+</html>

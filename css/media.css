@@ -46,14 +46,15 @@
     }
 
     /* navigation bar for small screen  */
-    .navbar-section{
+    .navbar-section {
         display: none;
     }
+
     .nav-container {
         display: block;
     }
 
-    
+
 
     .carousel-item img {
         width: 100%;
@@ -184,8 +185,26 @@
     .download {
         width: 60%;
     }
-    .staff-grid-container{
+
+    .staff-grid-container {
         display: grid;
         grid-template-columns: auto auto;
+    }
+
+    .achievements-grid {
+        display: grid;
+        grid-template-columns: auto;
+        gap: 2rem;
+        margin: 2rem;
+        text-align: center;
+    }
+
+    .gallery-grid {
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+    .activity-grid{
+        display: grid;
+        grid-template-columns: auto;
     }
 }
