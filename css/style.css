@@ -137,6 +137,10 @@ body {
     margin: 0 2.3rem;
 }
 
+.nav-item {
+    font-size: 1.1rem;
+}
+
 .nav-item .nav-link:hover {
     color: rgb(16, 172, 211);
 }
@@ -164,7 +168,7 @@ body {
 
 .dropdown-menu .dropdown-item a {
     text-transform: capitalize;
-    font-size: 1.7rem;
+    font-size: 1.3rem;
 }
 
 /* Style the dropdown item links */
@@ -185,6 +189,7 @@ body {
 .dropdown-menu li:hover {
     background-color: #6da1fc;
 }
+
 /* pop up  */
 /* .popup-container{
   
@@ -205,19 +210,20 @@ body {
   }
   
   /* Styles for the popup */
-  .popup {
+.popup {
     display: none;
     /* Add other styles to position and style your popup here */
-  }
-  
+}
+
 .popup-slide img {
-    height:90vh;
+    height: 90vh;
     width: 50%;
-    top:3%;
-    left:25%;
+    top: 3%;
+    left: 25%;
     position: absolute;
     transform: scale(0);
- }
+}
+
 /* .loader button{
     position:relative;
     margin-top:2.3%;
@@ -225,7 +231,9 @@ body {
 } */
 .popup-slide img.change {
     transform: scale(1);
-} */
+}
+
+*/
 
 /* section for carousel  */
 .carousel-item img {
@@ -252,7 +260,8 @@ body {
 
 .welcome-heading,
 .achievement-heading h1,
-.gallery h1 ,.news-heading h1{
+.gallery h1,
+.news-heading h1 {
     text-transform: uppercase;
     font-size: 3.7rem;
     background: -webkit-linear-gradient(0deg, #091860 0%, #48abe0 100%);
@@ -556,12 +565,14 @@ body {
     font-size: 1.3rem;
     padding: .9rem;
 }
- /* news section  */
- .news-heading h1{
+
+/* news section  */
+.news-heading h1 {
     text-align: center;
-    margin:2.7rem 0;
-    
- }
+    margin: 2.7rem 0;
+
+}
+
 /* section for quotes  */
 .quotes-section {
     background-image: linear-gradient(to right, #4cd9fe, #6da1fc);
