@@ -135,6 +135,12 @@ window.onload = function () {
             location.href = "./achievements.html";
         };
     }
+    let photo = document.getElementById("photo");
+    if (photo) {
+        photo.onclick = function () {
+            location.href = "./photo.html";
+        };
+    }
 }
 
 
