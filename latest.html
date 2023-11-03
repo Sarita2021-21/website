@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Upward Moving News Section</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<style>
+    body {
+        font-family: Arial, sans-serif;
+    }
+    
+    .news-container {
+        width: 300px;
+        height: 200px;
+        overflow: hidden;
+    }
+    
+    .news-scroll {
+        animation: scroll-up 15s linear infinite;
+    }
+    
+    .news-item {
+        padding: 10px;
+        border: 1px solid #ccc;
+        margin: 5px;
+        background-color: #f0f0f0;
+    }
+    
+    @keyframes scroll-up {
+        0% {
+            transform: translateY(0);
+        }
+        100% {
+            transform: translateY(-100%);
+        }
+    }
+    
+</style>
+<body>
+    <div class="news-container">
+        <div class="news-scroll">
+            <div class="news-item">News 1: This is the first news item.</div>
+            <div class="news-item">News 2: This is the second news item.</div>
+            <div class="news-item">News 3: This is the third news item.</div>
+            <!-- Add more news items as needed -->
+        </div>
+    </div>
+    <script src="script.js">
+        function appendNewsItem(newsText) {
+            const newsItem = document.createElement('div');
+            newsItem.classList.add('news-item');
+            newsItem.textContent = newsText;
+            document.querySelector('.news-scroll').appendChild(newsItem);
+        }
+        
+        // Usage example:
+        appendNewsItem("News 4: This is a new news item.");
+        
+        // Add more news items as needed.
+        
+    </script>
+</body>
+</html>

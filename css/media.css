@@ -205,14 +205,22 @@
     .gallery-grid {
         display: grid;
         grid-template-columns: auto auto;
-    }.gallery-images img {
+    }
+
+    .gallery-images img {
         width: 90%;
         height: 17vh;
         border: .2rem solid #091860;
         margin: 2rem;
     }
-    .activity-grid{
+
+    .activity-grid {
         display: grid;
         grid-template-columns: auto;
+    }
+
+    .circular-grid {
+        grid-template-columns: auto;
+
     }
 }

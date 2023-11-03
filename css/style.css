@@ -261,7 +261,8 @@ body {
 .welcome-heading,
 .achievement-heading h1,
 .gallery h1,
-.news-heading h1 {
+.news-heading h1,
+.circular-heading h1 {
     text-transform: uppercase;
     font-size: 3.7rem;
     background: -webkit-linear-gradient(0deg, #091860 0%, #48abe0 100%);
@@ -428,6 +429,47 @@ body {
 
 .primary-btn {
     margin-top: -2rem;
+}
+
+/* section for curricular */
+.circular-news-grid {
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 3rem;
+    text-transform: capitalize;
+    margin:3rem;
+}
+
+.circular-heading h1 {
+    text-align: center;
+    margin: 2.7rem 0;
+}
+.news-container {
+    width: 100%;
+    height: 17rem;
+    overflow: hidden;
+    /* margin-left: 13%; */
+}
+
+.news-scroll {
+    animation: scroll-up 30s linear infinite;
+}
+
+.news-item {
+    padding: .7rem;
+    border: 1px solid #ccc;
+    margin: .3rem;
+    font-size: 1.7rem;
+    background-color: #f0f0f0;
+}
+
+@keyframes scroll-up {
+    0% {
+        transform: translateY(0);
+    }
+    100% {
+        transform: translateY(-100%);
+    }
 }
 
 /* section for curriculum grid  */

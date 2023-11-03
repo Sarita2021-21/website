@@ -126,20 +126,42 @@ article {
 }
 
 /* activity css  */
-.activity-grid{
+.activity-grid {
     display: grid;
     grid-template-columns: auto auto auto auto;
     text-align: center;
 }
-.activity-btn{
+
+.activity-btn {
     text-transform: capitalize;
     font-size: 1.7rem;
-    color:white;
-    padding:.3rem .7rem;
+    color: white;
+    padding: .3rem .7rem;
     background-color: #6da1fc;
     margin-bottom: 3rem;
 }
-.activity-btn:hover{
-    background-color:#c4ddfe;
-    color:black;
+
+.activity-btn:hover {
+    background-color: #c4ddfe;
+    color: black;
+}
+
+.circular-grid {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 3rem;
+    text-align: left;
+}
+
+.circular {
+    border: .2rem solid #6da1fc;
+}
+
+.circular h2 {
+    margin-top: 2rem;
+    text-align: center;
+}
+
+.circular article {
+    font-size: 1.3rem;
 }
