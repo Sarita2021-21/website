@@ -460,7 +460,7 @@ body {
     border: 1px solid #ccc;
     margin: .3rem;
     font-size: 1.7rem;
-    background-color: #a4d9f6;
+    background-image: linear-gradient(to bottom right, rgb(242, 253, 255), #dbdfe7);
 }
 
 @keyframes scroll-up {
