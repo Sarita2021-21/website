@@ -70,7 +70,7 @@ article {
 .achievements img {
     width: 90%;
     height: 37vh;
-    border: .2rem solid blue;
+    border: .2rem solid rgb(32, 32, 221);
     box-shadow: .7rem .7rem 1.7rem #6da1fc;
 }
 
