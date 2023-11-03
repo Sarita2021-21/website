@@ -54,7 +54,10 @@
         display: block;
     }
 
-
+    .dropdown-menu .dropdown-item a {
+        text-transform: capitalize;
+        font-size: 1.7rem;
+    }
 
     .carousel-item img {
         width: 100%;
