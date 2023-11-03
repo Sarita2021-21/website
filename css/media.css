@@ -219,6 +219,10 @@
         grid-template-columns: auto;
     }
 
+    .circular-news-grid {
+        grid-template-columns: auto;
+    }
+
     .circular-grid {
         grid-template-columns: auto;
 
