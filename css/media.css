@@ -230,6 +230,7 @@
 
     .result-section {
         grid-template-columns: auto;
+        margin-left: auto;
     }
     .result-img {
         width: 90%;
