@@ -165,3 +165,15 @@ article {
 .circular article {
     font-size: 1.3rem;
 }
+
+.result-section {
+    display: grid;
+    grid-template-columns: auto auto;
+    margin-left: 7rem;
+}
+
+.result-img {
+    width: 90%;
+    height: 77vh;
+    margin-bottom: 3rem;
+}
