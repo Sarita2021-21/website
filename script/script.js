@@ -153,6 +153,12 @@ window.onload = function () {
             location.href = "./feepolicy.html";
         };
     }
+    let result = document.getElementById("result");
+    if (result) {
+        result.onclick = function () {
+            location.href = "./result.html";
+        };
+    }
 }
 
 
