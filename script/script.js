@@ -141,6 +141,18 @@ window.onload = function () {
             location.href = "./photo.html";
         };
     }
+    let admission = document.getElementById("admission");
+    if (admission) {
+        admission.onclick = function () {
+            location.href = "./admission.html";
+        };
+    }
+    let feepolicy = document.getElementById("feepolicy");
+    if (feepolicy) {
+        feepolicy.onclick = function () {
+            location.href = "./feepolicy.html";
+        };
+    }
 }
 
 
