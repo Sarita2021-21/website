@@ -797,6 +797,6 @@ body {
 }
 
 .close-button:hover {
-    background-color: rgb(19, 154, 222);
+    background-color: transparent;
     color: white;
 }
