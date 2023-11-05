@@ -28,6 +28,12 @@
         width: 30%;
         height: 13vh;
     }
+    .popup-slide img {
+        height: 90vh;
+        width: 50%;
+        top: 3%;
+        left: 0%;
+    }
 
     .main-headings {
         margin: 1.3rem 0;
