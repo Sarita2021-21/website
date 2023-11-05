@@ -777,3 +777,26 @@ body {
     box-shadow: 0 0.1rem 0.3rem #4b4b4b;
     /* border-radius: 50%; */
 }
+
+.close-button {
+    position: absolute;
+    top: 4.7%;
+    right: 26%;
+    background-color:rgb(88, 88, 213);
+    color: white;
+    border: none;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    font-size: 18px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+}
+
+.close-button:hover {
+    background-color: rgb(19, 154, 222);
+    color: white;
+}
