@@ -29,10 +29,11 @@
         height: 13vh;
     }
     .popup-slide img {
-        height: 90vh;
-        width: 50%;
-        top: 3%;
-        left: 0%;
+        height: 70vh;
+        width: 90%;
+        top: 7%;
+        bottom: 7%;
+        left: 5%;
     }
 
     .main-headings {
