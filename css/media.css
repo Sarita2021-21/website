@@ -259,7 +259,6 @@
 }
 
 
-
 @media (max-width: 450px) {
 
     html {
@@ -311,6 +310,12 @@
     /* navigation bar for small screen  */
     .navbar-section {
         display: none;
+    }
+    menu {
+        position: absolute;
+        top: 36%;
+        left: 35%;
+        transform: translate(-50%, -50%);
     }
 
     .nav-container {
