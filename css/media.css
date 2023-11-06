@@ -49,13 +49,21 @@
     .navbar-section {
         display: none;
     }
+    .menu {
+        position: absolute;
+        top: 56%;
+        left: 35%;
+        transform: translate(-50%, -50%);
+    }
 
     .nav-container {
         display: block;
     }
-
+    .nav-container .sidebar .menu .nav-item .nav-link {
+        font-size: 2rem;
+    }
     .dropdown-menu .dropdown-item a {
-        margin-top: 3rem;
+      
         text-transform: capitalize;
         font-size: 1.7rem;
     }
@@ -88,6 +96,7 @@
     }
 
     .management h1 {
+        padding-top: 3.7rem;
         font-size: 2.9rem;
     }
 
@@ -192,7 +201,7 @@
 
     .staff-grid-container {
         display: grid;
-        grid-template-columns: auto auto;
+        grid-template-columns: auto auto auto;
     }
 
     .achievements-grid {
@@ -244,12 +253,23 @@
         top: 7%;
         right: 8%;
     }
+
     .footer-grid .fa-brands {
-       visibility: hidden;
+        visibility: hidden;
     }
-    .footer-grid-3,.footer-grid-4{
-       margin-top: -20rem;
-     }
+
+    .footer-grid-3,
+    .footer-grid-4 {
+        margin-top: -20rem;
+    }
+
+    .holiday-table,
+    .vacation-table {
+        width: 90%;
+        text-transform: capitalize;
+        text-align: center;
+        margin: 0 5%;
+    }
 
 }
 
