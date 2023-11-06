@@ -316,11 +316,11 @@
     }
 
     .menu {
-        margin-top:2%;
-        left: 45%;
+        position: absolute;
+        top: 6%;
+        left: 35%;
         transform: translate(-50%, -50%);
     }
-
     .nav-container {
         display: block;
     }
