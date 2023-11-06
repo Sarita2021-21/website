@@ -16,6 +16,9 @@ html {
 body {
     font-family: 'Roboto', sans-serif;
     overflow-x: hidden;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
     /* background-image: linear-gradient(to bottom, #c4ddfe, #fed8f7); */
 }
 
@@ -275,6 +278,10 @@ body {
 }
 
 /* section for management desk  */
+.management-section {
+    margin-top: 5rem;
+   
+}
 .management h1 {
     text-transform: capitalize;
     font-size: 3.7rem;
@@ -369,7 +376,8 @@ body {
 .achievement-grid {
     display: grid;
     grid-template-columns: auto auto;
-    margin: 3rem 13rem;
+    margin: 2% 13%;
+    gap:3rem;
     text-align: center;
     align-items: center;
     justify-content: center;
