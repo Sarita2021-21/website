@@ -247,6 +247,10 @@
     .footer-grid .fa-brands {
        visibility: hidden;
     }
+    .footer-grid-3,.footer-grid-4{
+       margin-top: -20rem;
+     }
+
 }
 
 
