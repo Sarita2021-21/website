@@ -353,7 +353,7 @@
     }
 
     .management-section {
-        margin-top:7rem;
+        margin-top: 7rem;
 
     }
 
@@ -545,7 +545,7 @@
 
     .logo {
         width: 30%;
-        height: 13vh;
+        height: 23vh;
     }
 
     .popup-slide img {
@@ -737,21 +737,22 @@
     .achievements-grid {
         display: grid;
         grid-template-columns: auto;
-        gap: 2rem;
-        margin: 2rem;
+      
+        
         text-align: center;
     }
 
     .gallery-grid {
         display: grid;
         grid-template-columns: auto auto;
+        gap: 1.3rem;
+        margin-right: 7%;
     }
 
     .gallery-images img {
         width: 90%;
-        height: 17vh;
+        height: 27vh;
         border: .2rem solid #091860;
-        margin: 2rem;
     }
 
     .activity-grid {
