@@ -616,7 +616,7 @@
     }
 
     .management-section {
-        margin-top: 7rem;
+        margin-top: 7%;
 
     }
 
@@ -633,7 +633,7 @@
     .management-image img {
         width: 100%;
         height: 40vh;
-        padding: 5rem 6rem 0 0;
+        padding: 5% 6rem 0 0;
     }
 
     .management-details {
@@ -751,7 +751,7 @@
 
     .gallery-images img {
         width: 90%;
-        height: 27vh;
+        height: 23vh;
         border: .2rem solid #091860;
     }
 
