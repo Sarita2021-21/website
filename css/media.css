@@ -317,8 +317,8 @@
 
     .menu {
         position: absolute;
-        top: 6%;
-        left: 35%;
+        top: 36%;
+        left: 45%;
         transform: translate(-50%, -50%);
     }
     .nav-container {
