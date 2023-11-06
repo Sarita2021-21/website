@@ -362,7 +362,7 @@
         align-items: center;
         justify-content: center;
         text-align: center;
-        padding: 2rem 11rem;
+        padding: 2rem 11%;
     }
 
     .management h1 {
@@ -376,7 +376,7 @@
     }
 
     .management-details {
-        padding: 5rem 5rem 0 2rem;
+        padding: 5% 5% 0 2rem;
     }
 
     .read-btn {
@@ -447,7 +447,7 @@
     }
 
     .kids-list-container {
-        grid-template-columns: auto auto;
+        grid-template-columns: auto auto auto;
         margin-left: -3rem;
         gap: 7rem;
     }
@@ -470,7 +470,7 @@
 
     .staff-grid-container {
         display: grid;
-        grid-template-columns: auto auto;
+        grid-template-columns: auto auto auto;
     }
 
     .achievements-grid {
@@ -625,7 +625,7 @@
         align-items: center;
         justify-content: center;
         text-align: center;
-        padding: 2rem;
+        padding: 2rem 11%;
     }
 
 
