@@ -49,6 +49,7 @@
     .navbar-section {
         display: none;
     }
+
     .menu {
         position: absolute;
         top: 56%;
@@ -59,11 +60,13 @@
     .nav-container {
         display: block;
     }
+
     .nav-container .sidebar .menu .nav-item .nav-link {
         font-size: 2rem;
     }
+
     .dropdown-menu .dropdown-item a {
-      
+
         text-transform: capitalize;
         font-size: 1.7rem;
     }
@@ -311,9 +314,10 @@
     .navbar-section {
         display: none;
     }
+
     .menu {
-        top: 6%;
-        left: 35%;
+        margin-top: 6%;
+        left: 45%;
         transform: translate(-50%, -50%);
     }
 
@@ -351,7 +355,7 @@
         align-items: center;
         justify-content: center;
         text-align: center;
-        padding:2rem;
+        padding: 2rem;
     }
 
     .management h1 {
