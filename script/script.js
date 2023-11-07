@@ -159,6 +159,12 @@ window.onload = function () {
             location.href = "./result.html";
         };
     }
+    let students = document.getElementById("students");
+    if (students) {
+        students.onclick = function () {
+            location.href = "./students.html";
+        };
+    }
 }
 
 
