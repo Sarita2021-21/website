@@ -199,10 +199,11 @@ article {
 }
 
 
-.hm-innovators img,
+.innovators-img,
 .health img {
-    width: 80%;
-    height: 50vh;
+    width: 50%;
+    height: 60vh;
+    text-align: center;
 }
 
 .hm-innovators .fa-lightbulb,
@@ -234,4 +235,53 @@ article {
 .health .read-btn {
     text-decoration: none;
     font-size: 1.3rem;
+}
+
+.innovators{
+    text-align: center;
+    /* font-size: 1.3rem; */
+}
+.activity h3{
+    padding-left: 3rem;
+    padding-top: 3rem;
+}
+.activity img {
+    width: 50%;
+    height: 60vh;
+    text-align: center;
+    margin-left: 25%;
+    padding-bottom: 2rem;
+}
+/* .activity-img-grid{
+  display: grid;
+  grid-template-columns: auto auto
+}
+.activity-img-grid img{
+    width: 80%;
+    height: 60vh;
+    text-align-: center;
+    margin-left: 25%;
+} */
+
+.button-grid{
+    text-align: center;
+}
+.health-activity-btn{
+    text-transform: capitalize;
+    font-size: 1.7rem;
+    background-image: linear-gradient(to right, #091860, #0babff);
+   
+    padding: .3rem .7rem;
+    /* background-color: #6da1fc; */
+    margin-bottom: 3rem;
+}
+.health-activity-btn a{
+    text-decoration: none;
+    color: white;
+}
+
+.health-activity-btn:hover {
+    background-color: #c4ddfe;
+    color: black;
+    transform: scale(1.3);
 }
