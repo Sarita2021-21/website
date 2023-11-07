@@ -202,7 +202,7 @@ article {
 .innovators-img,
 .health img {
     width: 50%;
-    height: 60%;
+    height: 100%;
     text-align: center;
 }
 
@@ -247,7 +247,7 @@ article {
 }
 .activity img {
     width: 50%;
-    height: 60%;
+    height: 100%;
     text-align: center;
     margin-left: 25%;
     padding-bottom: 2rem;
