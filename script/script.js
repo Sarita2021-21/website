@@ -165,6 +165,7 @@ window.onload = function () {
             location.href = "./students.html";
         };
     }
+    
 }
 
 
