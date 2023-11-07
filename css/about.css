@@ -178,3 +178,60 @@ article {
     height: 77vh;
     margin-bottom: 3rem;
 }
+
+
+/* students corner section  */
+.students-corner-grid {
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 3%;
+    margin: 7rem;
+    align-items: center;
+    justify-content: center;
+    padding: 2%;
+}
+
+.hm-innovators,
+.health {
+    text-align: center;
+    border: .2rem solid #6da1fc;
+    padding: 3rem;
+}
+
+
+.hm-innovators img,
+.health img {
+    width: 80%;
+    height: 50vh;
+}
+
+.hm-innovators .fa-lightbulb,
+.health .fa-notes-medical {
+    padding: .3rem;
+    color: #6da1fc;
+    font-size: 8rem;
+}
+
+.hm-innovators h1,
+.health h1 {
+    font-size: 3rem;
+    padding: .3rem;
+    background: -webkit-linear-gradient(0deg, #091860 0%, #48abe0 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: bold;
+}
+
+.hm-innovators p,
+.health p {
+    color: #091860;
+    padding: .7rem;
+    font-size: 1.3rem;
+
+}
+
+.hm-innovators .read-btn,
+.health .read-btn {
+    text-decoration: none;
+    font-size: 1.3rem;
+}

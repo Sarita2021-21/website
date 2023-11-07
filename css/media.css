@@ -616,7 +616,7 @@
     }
 
     .management-section {
-        margin-top:3%;
+        margin-top: 3%;
 
     }
 
@@ -737,8 +737,8 @@
     .achievements-grid {
         display: grid;
         grid-template-columns: auto;
-      
-        
+
+
         text-align: center;
     }
 
@@ -784,4 +784,16 @@
         top: 7%;
         right: 6%;
     }
+
+    /* students corner section  */
+    .students-corner-grid {
+        display: grid;
+        grid-template-columns: auto;
+        gap: 3%;
+        margin: 7rem;
+        align-items: center;
+        justify-content: center;
+        padding: 2%;
+    }
+
 }
