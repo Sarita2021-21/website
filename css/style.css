@@ -414,7 +414,7 @@ body {
 
 .card img {
     width: 23rem;
-    height: 17rem;
+    height: 16.7rem;
 }
 
 .students-grid {
@@ -426,7 +426,7 @@ body {
 }
 
 .students-grid .card-body {
-    margin: 0 3rem;
+    margin: 0 2.7rem;
 }
 
 .achievements-card a {
@@ -436,7 +436,7 @@ body {
 }
 
 .primary-btn {
-    margin-top: -2rem;
+    margin-top: -2.3rem;
 }
 
 /* section for curricular */

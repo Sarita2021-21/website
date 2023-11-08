@@ -165,7 +165,18 @@ window.onload = function () {
             location.href = "./students.html";
         };
     }
-    
+    let counselor = document.getElementById("counselor");
+    if (counselor) {
+        counselor.onclick = function () {
+            location.href = "./counselor.html";
+        };
+    }
+    let sst = document.getElementById("sst");
+    if (sst) {
+        sst.onclick = function () {
+            location.href = "./sst.html";
+        };
+    }
 }
 
 
