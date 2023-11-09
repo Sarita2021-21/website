@@ -283,7 +283,7 @@
 
     .logo {
         width: 30%;
-        height: 23vh;
+        height: 21vh;
     }
 
     .popup-slide img {
@@ -371,7 +371,7 @@
 
     .management-image img {
         width: 100%;
-        height: 40vh;
+        height: 30vh;
         padding: 3rem 6rem 0 0;
     }
 
@@ -488,7 +488,7 @@
 
     .gallery-images img {
         width: 90%;
-        height: 17vh;
+        height: 23vh;
         border: .2rem solid #091860;
         margin: 2rem;
     }
