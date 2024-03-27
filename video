@@ -43,7 +43,9 @@
 
                 <div class="gallery-grid">
                     <div class="gallery-images">
-                        <img src="./images/gallery/Exhibition 2024.mp4" alt="" class="gallery-image">
+<video width="320" height="240" controls>
+  			<source src="./images/gallery/Exhibition 2024 (1).mp4" type="video/mp4">
+                       
                     </div>
 
                     
